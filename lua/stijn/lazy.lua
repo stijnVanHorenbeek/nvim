@@ -211,6 +211,20 @@ vim.wo.number = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- tabs & indentation
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+vim.o.autoindent = true
+
+-- line wrapping
+vim.o.wrap = true
+
+-- backspace
+vim.o.backspace = 'indent,eol,start'
+
+vim.o.colorcolumn = '80'
+
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
